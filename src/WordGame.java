@@ -85,7 +85,7 @@ public class WordGame {
             return;
         }
 
-        if(w[w.length-1] == letter){
+        if(w[w.length-1] == letter && (word.length()-1) == z){
             counter++;
             //System.out.println(counter );
             z=0;
